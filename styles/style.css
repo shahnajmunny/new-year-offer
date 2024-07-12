@@ -10,10 +10,10 @@ body {
 }
 /* banner section styles */
 .banner-container {
-    width: 1320px;
+    max-width: 1320px;
     margin: 0px auto;
     margin-top: 50px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     min-height: 600px;
     background-image: url("../images/Banner\ Image.png");
     background-color: rgba(0, 0, 0, 0.4);
