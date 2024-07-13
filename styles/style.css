@@ -134,3 +134,44 @@ body {
     height: 464px;
     width: 319px;
 }
+
+/* join now section styles */
+.join-mow-container {
+    width: 1320px;
+    height: 482px;
+    margin: 0px auto;
+    margin-top: 120px;
+    border-radius: 16px;
+background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    background-blend-mode: overlay;
+}
+.join-now-sec-content {
+    width: 549px;
+    height: 272px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 385px;
+    margin-top: 100px;
+    position: absolute;
+}
+.join-now-sec-content h4 {
+    font-size: 32px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    color: #070211;
+}
+.red {
+    color:#FF0000;
+}
+.join-now-two-btn {
+    font-size: 20px;
+    font-weight: bold;
+    color:#FFFFFF;
+    background-color: #FF0000;
+    padding: 16px 32px;
+    margin-top: 48px;
+    border-radius: 8px;
+    border: none;
+}
