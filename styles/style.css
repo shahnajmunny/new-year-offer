@@ -260,3 +260,46 @@ background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 1
     /* border: 2px solid pink; */
     margin-top: 43px;
 }
+
+/* holiday section styles */
+.holiday-section-container {
+    width: 1320px;
+    height: 986px;
+    border: 2px solid red;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+.holiday-section-text-content {
+    width: 1068px;
+    height: 260px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.holiday-section-text-content h5 {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    color: #070211;
+    margin-bottom: 16px;
+}
+.holiday-section-text-content h1 {
+    font-size: 72px;
+    font-weight: 900;
+    font-family: "Merriweather", serif;
+    color: #070211;
+    margin-bottom: 28px;
+}
+#holidays {
+    color: #FF0000;
+}
+.holiday-section-text-content p {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    color: rgba(7, 2, 17, 0.6);
+    text-align: center;
+    line-height: 32px;
+}
